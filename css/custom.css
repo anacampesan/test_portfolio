@@ -1,0 +1,108 @@
+.navbar{
+    background-color: rgba(0,0,0,0.3);
+    border-bottom:none;
+    /*background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.0)); */
+    color: white;
+}
+
+
+h1{
+    font-size: 60px;
+}
+
+.banner{
+    padding-top:60px;
+    background-color: #2DACD6;
+    height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+}
+
+.text{
+    color: white;
+    font-family: 'Play', sans-serif;
+    z-index: 10;
+}
+
+.screenshot{
+    position: absolute;
+    bottom: 0;
+    
+    text-align: center;
+    margin: auto;
+}
+
+.logo{
+    font-family: 'Amaranth', sans-serif;
+}
+
+.technologies{
+    background-image: url(../img/tech_bg.png);
+    padding-top: 0px;
+}
+
+.about{
+    background-image: url(../img/about_bg.png) !important;
+    padding-top: 0px !important;
+}
+
+.social{
+    background-color: aqua;
+    min-height:100vh;
+    padding-top: 40px;
+}
+
+.contact{
+    background-color: blueviolet;
+    min-height:100vh;
+    padding-top: 40px;
+}
+
+.footer{
+    min-height: 300px;
+}
+
+.photo{
+    max-height: 200px;
+}
+
+.center{
+    text-align: center;
+}
+
+.justified{
+    text-align: justify;
+}
+
+.element2{
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    z-index: 10;
+}
+
+.tile{
+    background-image: url(../img/tile.png);
+    position:absolute;
+    bottom: 0px;
+    min-height: 100px;
+    width: 100%;
+    left: 0;
+}
+
+.ana{
+    position: absolute;
+    bottom: 90px;
+    position: fixed;
+    z-index: 1;
+    height: auto;
+    left: 21%;
+    min-height: 200px !important;
+}
+
+.pipe{
+    min-height:100%;
+    background-color: white;
+    background-image: url(../img/pipe.png);
+    z-index: 0
+}
